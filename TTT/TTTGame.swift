@@ -8,7 +8,7 @@
 import Foundation
 
 class TTTGame {
-    var blue: Int = 0
+    var blue: Int = 1
     var red: Int = 0
     var board: [[Int]] =
     [
@@ -45,6 +45,7 @@ class TTTGame {
     
     func resetGame(){
         self.blue = 1
+        self.red = 0
         self.board =
         [
         [0,0,0],

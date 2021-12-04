@@ -26,11 +26,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var button21: UIButton!
     @IBOutlet weak var button22: UIButton!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        tttGame.blue = 1
     }
 
 
@@ -102,15 +100,24 @@ class ViewController: UIViewController {
     }
     
     private func resetGame(){
-        button00.backgroundColor = .gray
-        button01.backgroundColor = .gray
-        button02.backgroundColor = .gray
-        button10.backgroundColor = .gray
-        button11.backgroundColor = .gray
-        button12.backgroundColor = .gray
-        button20.backgroundColor = .gray
-        button21.backgroundColor = .gray
-        button22.backgroundColor = .gray
+        button00.backgroundColor = UIColor.gray
+        button00.isEnabled = true
+        button01.backgroundColor = UIColor.gray
+        button01.isEnabled = true
+        button02.backgroundColor = UIColor.gray
+        button02.isEnabled = true
+        button10.backgroundColor = UIColor.gray
+        button10.isEnabled = true
+        button11.backgroundColor = UIColor.gray
+        button11.isEnabled = true
+        button12.backgroundColor = UIColor.gray
+        button12.isEnabled = true
+        button20.backgroundColor = UIColor.gray
+        button20.isEnabled = true
+        button21.backgroundColor = UIColor.gray
+        button21.isEnabled = true
+        button22.backgroundColor = UIColor.gray
+        button22.isEnabled = true
         
         winnerLabel.text = ""
         gameOver = false
