@@ -16,6 +16,7 @@
 		84BA742A2758BD2F0078D271 /* TTTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA74292758BD2F0078D271 /* TTTTests.swift */; };
 		84BA74342758BD2F0078D271 /* TTTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA74332758BD2F0078D271 /* TTTUITests.swift */; };
 		84BA74362758BD2F0078D271 /* TTTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA74352758BD2F0078D271 /* TTTUITestsLaunchTests.swift */; };
+		84BA74432758E5400078D271 /* TTTGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA74422758E5400078D271 /* TTTGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		84BA742F2758BD2F0078D271 /* TTTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BA74332758BD2F0078D271 /* TTTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTTUITests.swift; sourceTree = "<group>"; };
 		84BA74352758BD2F0078D271 /* TTTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTTUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84BA74422758E5400078D271 /* TTTGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTTGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				84BA741B2758BD2F0078D271 /* Assets.xcassets */,
 				84BA741D2758BD2F0078D271 /* LaunchScreen.storyboard */,
 				84BA74202758BD2F0078D271 /* Info.plist */,
+				84BA74422758E5400078D271 /* TTTGame.swift */,
 			);
 			path = TTT;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				84BA74172758BD2D0078D271 /* ViewController.swift in Sources */,
 				84BA74132758BD2D0078D271 /* AppDelegate.swift in Sources */,
+				84BA74432758E5400078D271 /* TTTGame.swift in Sources */,
 				84BA74152758BD2D0078D271 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
